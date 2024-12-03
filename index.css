@@ -1,0 +1,586 @@
+/* main page */
+.card-image{
+
+    width: 100%;
+    height: 150%;
+
+
+
+
+}
+
+
+
+
+a{
+
+
+    text-decoration: none;
+    text-align: justify;
+    color: white;
+
+}
+
+
+a:hover{
+
+color: red;
+font-weight: bold;
+
+}
+
+h3{
+
+
+    text-align: center;
+}
+
+
+
+
+
+.landingpage{
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 920px;
+    width: 100%;
+    background-color: rgb(153, 179, 232);
+
+    /* background-color:rgb(214, 233, 233); */
+    
+
+}
+
+/* .container h2{
+
+
+    text-align: center;
+    
+    
+    
+    
+
+} */
+
+
+form{
+
+
+    color: red;
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 25px;
+    
+    
+    
+
+}
+
+input, button {
+
+
+    width: 80%; 
+    max-width: 400px;
+    margin: 10px auto;
+}
+
+/* search buttons */
+
+/* input, button, .searchbutton {
+
+    width: 60% !important;
+    max-width: 100px;
+} */
+
+@media (max-width: 768px) {
+
+    input, button {
+
+        width: 90%;
+        /* font-weight: 0.5rem;  */
+        
+    }
+
+    .seach{
+        margin-left: 15px;
+    }
+
+    /* .top{
+
+        width: 70%;
+    } */
+
+
+}
+
+input{
+
+border-radius: 7px;
+/* margin-left: 20px; */
+padding: 2px;
+border-color: red;
+margin: 10px;
+background-color: rgb(224, 232, 205);
+color: black;
+width:60%;
+}
+
+
+button:hover {
+
+    border-radius: 5px;
+    padding: 3px;
+    background-color: rgb(64, 231, 56);
+    color: white;
+    
+
+    
+}
+
+button{
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+    
+
+}
+
+
+@media (max-width: 768px) {
+
+    input, button {
+
+        width: 90%;
+    }
+}
+
+
+.landingpage, .landingpage1, .landingpage2, .landingpage3 {
+
+    background-position: center;
+    min-height: 100vh;
+    position: relative;
+
+}
+
+@media (max-width: 768px) {
+
+    .landingpage, .landingpage2 {
+
+        min-height: 632vh;
+    }
+}
+
+
+
+
+
+:placeholder-shown{
+
+color: darkgreen;
+
+}
+
+
+/* header design */
+.navbar-nav{
+
+    font-size: 12px;
+    font-family: poppins, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+    
+    
+    
+    }
+
+    /* nav bar responsiveness */
+    @media (max-width: 768px) {
+        .navbar-nav {
+
+            text-align: center;
+            margin: 0 auto;
+        }
+        .navbar-nav .nav-link {
+
+            margin: 5px 0; 
+            padding: 10px;
+            text-align: center;
+        }
+    }
+
+
+    
+    
+    /* navbar design */
+    .navbar{
+    
+    background-color:rgb(233, 65, 14)
+    
+    
+    }
+    
+    
+    /* brand logo */
+    .navbar-brand{
+    
+    
+        color: white;
+        font-family: fantasy;
+        letter-spacing: 5px;
+        
+    }
+    
+    
+    
+    .navbar-expand-lg .navbar-nav .nav-link{
+    
+    
+    color: white;
+    margin: 8px;
+    letter-spacing: 2px;
+    
+    }
+    
+    .navbar-brand:hover{
+    
+    color: white;
+    
+    }
+
+
+/* .row{
+
+
+    flex-wrap: wrap;
+    overflow-x: auto;
+} */
+
+.est{
+
+    height: 100px;
+    width: 80%;
+    border-radius: 40%;
+}
+
+.hea{
+
+    text-align: center;
+    margin-right: 50px;
+    color: red;
+}
+
+
+.hea:hover{
+
+    color: indigo;
+}
+
+
+/* for sale */
+
+.upload-property-form{
+
+    
+border-radius: 7px;
+padding: 2px;
+border-color: red;
+margin: 2px;
+color: black;
+width:70%;
+
+
+
+}
+
+
+.card-sm {
+    margin-bottom: 20px;
+}
+
+
+.card-sm .card-img-top{
+
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+
+}
+
+@media (max-width: 768px) {
+
+    .card-sm {
+
+        .card-sm {
+
+            width: 100%;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+
+h2, h3 {
+    font-size: 2rem;
+    text-align: center;
+    color: red;
+}
+
+@media (max-width: 768px) {
+
+    h2, h3 {
+        font-size: 1.5rem;
+    }
+
+    h5{
+
+        width: 35% !important;
+    }
+}
+
+p, a {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+
+    p, a {
+
+        font-size: 0.9rem;
+    }
+}
+
+/* marquee alternative for smooth scrolling */
+
+marquee h5 {
+white-space: nowrap;
+overflow:visible;
+display: inline-block;
+animation: scroll 25s linear infinite;
+font-weight: bold;
+color: rgb(238, 86, 31);
+
+}
+
+@keyframes scroll {
+
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+@media (max-width: 768px) {
+    .marquee h5 {
+        font-size: 0.9rem;
+    }
+}
+
+footer {
+
+    background-color: rgb(233, 65, 14);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    footer {
+        padding: 10px 0;
+        font-size: 0.8rem;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+
+    .container {
+        padding: 20px 10px;
+    }
+    .landingpage2 {
+        min-height: 600px;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+    }
+
+    .upload-property-form{
+        width: 90%;
+    }
+
+    form {
+        width: 90%;
+    }
+
+    input, button{
+
+        width: 90%;
+        
+    }
+
+
+}
+
+.container, .card-sm, .upload-property-form {
+    max-width: 100%;
+    height: auto;
+
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* consult */
+
+.landingpage1{
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+    width: 100%;
+    background-image:url(./images/images-13.jpeg);
+
+}
+
+
+/* Register and login */
+
+.landingpage2{
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+    width: 100%;
+    background-image:url(./images/Nigeria\ Duplex\ Design.jpeg);
+
+}
+
+
+
+.landingpage3{
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+    width: 100%;
+    background-color: rgb(153, 179, 232);
+}
+
+/* form>.bt{
+
+    margin-left: 10px;
+    
+    } */
+    
+    
+    /* Default styles for desktop and larger screens */
+    /* body {
+        font-size: 16px;
+    } */
+    
+    /* Laptops and tablets landscape (768px - 1024px) */
+    /* @media screen and (max-width: 1024px) {
+        .container {
+            width: 90%;
+            margin: auto;
+        }
+        .card-sm .card-img-top {
+            height: 180px;
+        }
+    } */
+    
+    /* Tablets portrait and smaller devices (up to 768px) */
+    /* @media screen and (max-width: 768px) {
+        .navbar-nav {
+            font-size: 10px;
+        }
+    
+        .est {
+            width: 60%;
+        }
+    
+        .hea {
+            margin-right: 20px;
+        }
+    
+        form {
+            flex-direction: column;
+            margin-left: 0;
+            width: 100%;
+        }
+    
+        .upload-property-form {
+            width: 100%;
+        }
+    
+        .landingpage {
+            height: auto;
+            background-size: cover;
+        }
+    
+        .card-sm .card-img-top {
+            height: 150px;
+        }
+    }
+     */
+    /* Mobile devices (up to 480px) */
+    /* @media screen and (max-width: 480px) {
+        .navbar-nav {
+            font-size: 2px;
+        }
+    
+        .est {
+            width: 50%;
+        }
+    
+        .hea {
+            font-size: 12px;
+            margin-right: 10px;
+        }
+    
+        form {
+            margin-left: 0;
+            width: 100%;
+        }
+    
+        .landingpage {
+            height: auto;
+        }
+    
+        .upload-property-form input, 
+        .upload-property-form button {
+            width: 100%;
+        }
+    
+        .card-sm .card-img-top {
+            height: 100px;
+        }
+    } */
+
+
+/* responsive form */
+
+
